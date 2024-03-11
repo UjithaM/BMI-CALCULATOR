@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:bmi_calculator/constants.dart';
 class IconContent extends StatelessWidget {
   IconContent({
     required this.icon,
@@ -24,10 +24,8 @@ class IconContent extends StatelessWidget {
           height: 15,
         ),
         Text(label,
-          style: const TextStyle(
-              fontSize: 18,
-              color: Color(0xFF8D8E98)
-          ),)
+          style:kLabelTextStyle ,
+        ),
       ],
     );
   }
